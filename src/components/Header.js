@@ -12,28 +12,7 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <div className="col-2 d-block d-lg-none">
                 <FaBars />
-            </div>
-
-            {/* Mobile Logo */}
-            <div className="col-8 d-block d-lg-none text-center">
-              <div className="logo">
-                <a href="https://bebilogo.com.br/shop">
-                  <img
-                    src="https://bebilogo.com.br/assets2/img/logo/logomarca_bebilogo_2.png"
-                    alt="Bebilogo"
-                    style={{ maxWidth: '210px' }}
-                  />
-                </a>
-              </div>
-            </div>
-
-            {/* Mobile Cart Icon */}
-            <div className="col-2 d-block d-lg-none text-end">
-              
-                <FaShoppingBasket fa-2x/>
-                <span className="cart_quantity">0</span>
-              
-            </div>
+            </div>           
 
             {/* Desktop Logo */}
             <div className="col-lg-4 col-md-3 d-none d-lg-block">
