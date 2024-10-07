@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.LinhaHorizontal_front {
+  background-color:#faed1f;
+}

@@ -7,21 +7,6 @@
     padding: 15px 0;
   }
   
-  .mini_cart_wrapper {
-    position: relative;
-  }
-  
-  .mini_cart_wrapper .cart_quantity {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    padding: 0 6px;
-    font-size: 12px;
-  }
-
 .search-container {
   flex-grow: 1;
 }
@@ -30,40 +15,13 @@
   width: 100%;
 }
 
-.header {
-  background-color: #f8f8f8;
-}
-
-.category-menu {
-  background-color: #e3e3e3; /* Cor de fundo da barra de categorias */
-  padding: 10px 0;
-}
-
-.category-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.logomarca {
   display: flex;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: '#282c34';
 }
 
-.category-list li {
-  margin-right: 20px;
+.logo {
+  height: 88px;
 }
-
-.category-list a {
-  color: white; /* Cor do texto dos links */
-  text-decoration: none;
-}
-
-.category-list a:hover {
-  text-decoration: underline; /* Estilo ao passar o mouse */
-}
-
-.whatsapp-icon {
-  font-size: 24px; /* Tamanho do ícone do WhatsApp */
-  color: white; /* Cor do ícone do WhatsApp */
-  margin-right: 20px; /* Espaçamento à direita */
-}
-
-

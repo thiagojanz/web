@@ -1,16 +1,27 @@
 import React from 'react';
 import Header from './components/Header';
+import LinhaHorizontal from './components/LinhaHorizontal';
+import Marcas from './components/BarraDeMarcas';
 import { View, Button } from 'react-native';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'; // Certifique-se de que este arquivo existe
 
 function App() {
   return (
-    <div className="container">
-      <Header/>
-      <div className="jumbotron bg-light p-5 rounded">
-        <h1 className="display-4">Hello, React Native Web + Bootstrap!</h1>
+    <div>
+      <div className="container">
+        <Header/>
+      </div>
+      <div className='LinhaHorizontal_front'>        
+        <LinhaHorizontal />        
+      </div>
+      <div className='container mt-2'>        
+        <Marcas />        
+      </div>
+      <div className="container">
+        <h1 className="display-4">Comércio de Bebidas</h1>
         <p className="lead">
-          This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+        Bebilogo - Comércio de Bebidas | Belém/PA - Bebidas, Cervejas, Destilados, Energéticos, Refrigerantes, Petiscos, Tira Gosto.
         </p>
         <View style={{ marginBottom: 20 }}>
           <Button
@@ -18,14 +29,7 @@ function App() {
             onPress={() => alert('Button pressed!')}
             className="btn btn-primary btn-lg"
           />
-        </View>
-        <View>
-          <Button
-            title="Secondary Link"
-            onPress={() => alert('Secondary action!')}
-            className="btn btn-outline-secondary btn-lg"
-          />
-        </View>
+        </View>      
       </div>
     </div>
   );
