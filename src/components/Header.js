@@ -2,7 +2,6 @@
 import React from 'react';
 import { FaBars, FaShoppingBasket, FaSearch } from 'react-icons/fa';
 import './Header.css'; // Adicione um arquivo CSS para estilos adicionais
-import 'https://bebilogo.com.br/assets2/css/bootstrap.min.css';
 
 const Header = () => {
   return (
